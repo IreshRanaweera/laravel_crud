@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a21ab53c-c70f-489a-99a8-7f2ad1413cd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/crud/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/crud/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/crud/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/crud/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/crud/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/crud/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/crud/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/crud/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -119,14 +146,19 @@
       <path value="$PROJECT_DIR$/crud/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/crud/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/crud/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/crud/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gJGxL2nqiXoMFevZBEuuSMiTpe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -139,11 +171,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597825526903</updated>
-      <workItem from="1597825528021" duration="45000" />
+      <workItem from="1597825528021" duration="2215000" />
+      <workItem from="1597878099430" duration="936000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
